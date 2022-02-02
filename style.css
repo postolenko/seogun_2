@@ -3958,7 +3958,7 @@ p.green_val {
     content: "";
     width: 10px;
     height: 8px;
-    background-image: url(img/red_Checked.png);
+    background-image: url(img/red_checked.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
