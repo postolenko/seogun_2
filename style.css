@@ -1394,6 +1394,39 @@ textarea:focus {
     font-size: 15px;
     color: #e51212;
     line-height: 1.2;
+    -webkit-transition-property: background;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: background;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: background;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: background;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: background;
+    transition-duration: .3s;
+    transition-timing-function: ease;  
+}
+
+.white_pill:link,
+.white_pill:visited {
+    background-color: #fff;
+}
+
+.white_pill:active,
+.white_pill.active {
+    background-color: #ffe6e6;
+}
+
+.white_pill:hover {
+    background-color: #ffe6e6;
 }
 
 .plus_pill {
@@ -1866,30 +1899,39 @@ textarea:focus {
     font-size: 15px;
     line-height: 20px;
     color: #fff;
-    -webkit-transition-property: background, color;
+    -webkit-transition-property: background;
     -webkit-transition-duration: .3s;
     -webkit-transition-timing-function: ease;
 
-    -moz-transition-property: background, color;
+    -moz-transition-property: background;
     -moz-transition-duration: .3s;
     -moz-transition-timing-function: ease;
 
-    -ms-transition-property: background, color;
+    -ms-transition-property: background;
     -ms-transition-duration: .3s;
     -ms-transition-timing-function: ease;
 
-    -o-transition-property: background, color;
+    -o-transition-property: background;
     -o-transition-duration: .3s;
     -o-transition-timing-function: ease;
 
-    transition-property: background, color;
+    transition-property: background;
     transition-duration: .3s;
     transition-timing-function: ease;  
 }
 
+.red_pill:link,
+.red_pill:visited {
+    background-color: #d40c0c;
+}
+
+.red_pill:active,
+.red_pill.active {
+    background-color: #c60909;
+}
+
 .red_pill:hover {
-    background-color: #fff;
-    color: #d40c0c;
+    background-color: #c60909;
 }
 
 .btn_wrapp {
@@ -3002,6 +3044,39 @@ p.red_404 {
     font-size: 15px;
     color: #000;
     line-height: 1.2;
+    -webkit-transition-property: background;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: background;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: background;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: background;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: background;
+    transition-duration: .3s;
+    transition-timing-function: ease;  
+}
+
+.white_grey_pill:link,
+.white_grey_pill:visited {
+    background-color: #fff;
+}
+
+.white_grey_pill:active,
+.white_grey_pill.active {
+    background-color: #f1f1f1;
+}
+
+.white_grey_pill:hover {
+    background-color: #f1f1f1;
 }
 
 .ex_pill {
@@ -3078,11 +3153,11 @@ p.red_404 {
 }
 
 .two_cols_4 > .col_1 {
-    width: 70%;
+    width: 50%;
 }
 
 .two_cols_4 > .col_2 {
-    width: 30%;
+    width: 50%;
     display: flex;
     display: -webkit-flex;
     justify-content: flex-end;
@@ -3638,9 +3713,13 @@ p.green_val {
     background-image: url(img/white_plus.svg);
 }
 
+.red_pill.plus_pill:active,
+.red_pill.plus_pill.active {
+    background-color: #c60909;
+}
+
 .red_pill.plus_pill:hover {
-    color: #fff;
-    background-color: #d40c0c;
+    background-color: #c60909;
 }
 
 .inlines_5 {
