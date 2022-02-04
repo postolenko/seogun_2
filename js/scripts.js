@@ -569,4 +569,12 @@ $(document).ready(function() {
         }
     });
 
+    // --------
+
+    $(".cansel_btn").on("click", function(e) {
+      e.preventDefault();
+      parent = $(this).closest("form");
+      parent.find("input").prop("checked", false);
+    });
+
 });

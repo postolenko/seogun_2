@@ -160,12 +160,97 @@
 							<div>
 								<div class="right_inlines right_inlines_2">
 									<div>
-										<a href="#" class="white_grey_pill ex_pill">Export</a>
+										<a href="#" class="white_grey_pill ex_pill" data-popup-link = "popup_9">Export</a>
 									</div>
 									<div>
 										<div class="date_thumb">
 											<div>
-												<i class="datepicker"></i>
+												<div class="dropdown_box datepiker_dr">
+													<div class="dropdown_title"><i class="datepicker"></i></div>
+													<div class="dropdown_list datepiker_dr_list">
+														<div class="datepicker_list">
+															<div class="datepicker_header">
+																<div>
+																	<button type="button" class="date_btn prev_date"></button>
+																</div>
+																<div>
+																	<h3>Февраль 2022</h3>
+																</div>
+																<div>
+																	<button type="button" class="date_btn next_date"></button>
+																</div>
+															</div>
+															<div class="datepicker_table">
+																<div class="datepicker_table_row">
+																	<div>M</div>
+																	<div>T</div>
+																	<div>W</div>
+																	<div>T</div>
+																	<div>F</div>
+																	<div>S</div>
+																	<div>S</div>
+																</div>
+																<div class="datepicker_table_row">
+																	<div></div>
+																	<div></div>
+																	<div></div>
+																	<div></div>
+																	<div></div>
+																	<div></div>
+																	<div>1</div>
+																</div>
+																<div class="datepicker_table_row">
+																	<div>2</div>
+																	<div>3</div>
+																	<div>4</div>
+																	<div>5</div>
+																	<div>6</div>
+																	<div>7</div>
+																	<div class="red">8</div>
+																</div>
+																<div class="datepicker_table_row">
+																	<div class="pink">9</div>
+																	<div class="pink">10</div>
+																	<div class="pink">11</div>
+																	<div class="red">12</div>
+																	<div>13</div>
+																	<div>14</div>
+																	<div>15</div>
+																</div>
+																<div class="datepicker_table_row">
+																	<div>16</div>
+																	<div>17</div>
+																	<div>18</div>
+																	<div>19</div>
+																	<div>20</div>
+																	<div>21</div>
+																	<div>22</div>
+																</div>
+																<div class="datepicker_table_row">
+																	<div>23</div>
+																	<div>24</div>
+																	<div>25</div>
+																	<div>26</div>
+																	<div>27</div>
+																	<div>28</div>
+																	<div>29</div>
+																</div>
+																<div class="datepicker_table_row">
+																	<div>30</div>
+																	<div></div>
+																	<div></div>
+																	<div></div>
+																	<div></div>
+																	<div></div>
+																	<div></div>
+																</div>
+															</div>
+															<div class="datepiker_btn_wrapp">
+																<button type="button" class="white_pill">Apply</button>
+															</div>
+														</div>
+													</div>
+												</div>
 											</div>
 											<div>
 												<h3>Comparing</h3>
@@ -1117,6 +1202,39 @@
 					<button type="button" class="black_pill">next</button>
 				</div>
 			</div>
+		</div>
+	</div>
+
+	<div class="popup popup_sect" data-popup = "popup_9">
+		<div class="popup_content popup_content_9">
+			<button type="button" class="close_popup"></button>
+			<div class="popup_title">
+				<h3>Export</h3>
+			</div>
+			<form>
+				<div class="radios_wrapp_3">
+					<div>
+						<div class="radio">
+							<input type="radio" name="export_type" id="r_1" />
+							<label for="r_1">Excel</label>
+						</div>
+					</div>
+					<div>
+						<div class="radio">
+							<input type="radio" name="export_type" id="r_2" />
+							<label for="r_2">CSV</label>
+						</div>
+					</div>
+				</div>
+				<div class="buttons_wrapp_3 buttons_wrapp_3_3">
+					<div>
+						<button type="submit" class="white_pill exp_btn">Apply</button>
+					</div>
+					<div>
+						<button type="button" class="white_grey_pill exp_btn cansel_btn">Cancel</button>
+					</div>				
+				</div>
+			</form>
 		</div>
 	</div>
 
