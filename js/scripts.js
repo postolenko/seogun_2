@@ -100,6 +100,7 @@ $(document).ready(function() {
       activeVal = parent.find(".active_val");
       parent.find(".hide_val").val($(this).html());
       activeVal.html($(this).html());
+      parent.removeClass("active");
     });
 
     $(this).keydown(function(eventObject){
